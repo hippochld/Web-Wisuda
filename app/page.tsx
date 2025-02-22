@@ -2,6 +2,9 @@ import Image from "next/image";
 import { Instrument_Serif } from "next/font/google";
 const instrument_serif = Instrument_Serif({
   weight: "400",
+  style: 'normal',
+  subsets: ["latin"],
+  variable: "--font-instrument-serif",
 });
 export default function Home() {
   return (
